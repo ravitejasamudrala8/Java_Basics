@@ -1,0 +1,24 @@
+package static_method;
+
+public class static 
+
+{
+	static void addition()
+		{	
+			int a=200;
+			int b=500;
+			int c=a+b;
+			System.out.println (c);
+		}
+	
+	public static void main (String[] args)
+		{
+			System.out.println("Main Method");
+			addition();
+		}
+}
+
+
+Result
+Main Method
+700
